@@ -107,9 +107,9 @@ files.keys().filter(key => {
 
 # Documentation
 
-## `coderwhy`: A CLI to help you quickly build and develop front-end projects
+## `zabanya: A CLI to help you quickly build and develop front-end projects
 
-> Can't think of other names, so just use coderwhy~
+> Can't think of other names, so just use zabanya>~
 
 How to install？
 
@@ -148,14 +148,14 @@ Project development currently provides three functions:
 ### Create Vue components:
 
 ```shell
-zabanya addcpn YourComponentName # example coderwhy add NavBar, the default will be stored in src / components folder 
+zabanya addcpn YourComponentName # example zabanya add NavBar, the default will be stored in src / components folder 
 zabanya addcpn YourComponentName -d src / Pages and the / Home # specific file can also specify the destination folder
 ```
 
 ### Create a Vue page and configure routing
 
 ```shell
-zabanya addpage YourPageName # example coderwhy addpage Home, the default will put src / pages / home / Home.vue, and will create a src / Page / Home / router.js 
+zabanya addpage YourPageName # example zabanya addpage Home, the default will put src / pages / home / Home.vue, and will create a src / Page / Home / router.js 
 zabanya addPage YourPageName -d src / views # You can also specify a folder , But need to integrate routing manually
 ```
 
@@ -178,7 +178,7 @@ const  routes  =  files . Keys ( ) . Map ( key  =>  {
 ### Create Vuex submodule
 
 ```shell
-zabanya addstore YourVuexChildModuleName # example coderwhy addstore home, the default will put src / store / modules / home / index.js and types.js 
+zabanya addstore YourVuexChildModuleName # example zabanya addstore home, the default will put src / store / modules / home / index.js and types.js 
 zabanya addstore YourVuexChildModuleName -d src / vuex / modules # You can also specify a folder
 ```
 
