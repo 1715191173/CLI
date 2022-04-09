@@ -6,7 +6,7 @@
 如何安装？
 
 ```shell
-npm install zabanya -g
+npm install @zabanya/leecli -g
 ```
 
 ## 创建项目
